@@ -25,7 +25,7 @@ app.post("/add",function(req,res){
 
 
 
-app.listen(3003,function(){
+app.listen(80,function(){
 
-	console.log('listen 3003')
+	console.log('listen 80')
 });
