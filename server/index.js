@@ -25,7 +25,7 @@ app.post("/add",function(req,res){
 
 
 
-app.listen(80,function(){
+app.listen(8080,function(){
 
-	console.log('listen 80')
+	console.log('listen 8080')
 });
