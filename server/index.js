@@ -25,7 +25,7 @@ app.post("/add",function(req,res){
 
 
 
-var server  =  app.listen(8080,function(){
+var server  =  app.listen(80,function(){
 	console.log(server.address())
-	console.log('listen 8080')
+	console.log('listen 80')
 });
