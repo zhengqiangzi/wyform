@@ -1,2 +1,2 @@
-#!/bin/sh
-node server/index.js
+#!/usr/bin/env node
+server/index.js
