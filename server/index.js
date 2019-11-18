@@ -4,6 +4,7 @@ var bodyParser = require('body-parser')
 
 var app =express();
 var path=require("path");
+var axios = require("axios");
 	
 app.use(bodyParser.json())
 app.use(cors())
@@ -14,8 +15,8 @@ app.get('/', function(req, res){
 	//var fileName=path.resolve()+"/server/dist/index.html"
   	
   	//res.sendFile(fileName)
-
-  	res.send("<h1>123123</h1>")
+	var code = (req.params.code)
+  	res.send("<h1>"+code +"</h1>")
 });
 
 
