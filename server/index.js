@@ -11,9 +11,11 @@ app.use("/static",express.static(path.resolve()+"/server/dist/static"))
 
 app.get('/', function(req, res){
 
-	var fileName=path.resolve()+"/server/dist/index.html"
+	//var fileName=path.resolve()+"/server/dist/index.html"
   	
-  	res.sendFile(fileName)
+  	//res.sendFile(fileName)
+
+  	res.send("<h1>123123</h1>")
 });
 
 
