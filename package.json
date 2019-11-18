@@ -1,0 +1,28 @@
+{
+  "name": "wyform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengqiangzi/wyform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhengqiangzi/wyform/issues"
+  },
+  "homepage": "https://github.com/zhengqiangzi/wyform#readme",
+  "description": "",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "element-ui": "^2.4.6",
+    "express": "^4.16.3"
+  },
+  "dependencies": {
+    "vue": "^2.5.17"
+  }
+}
