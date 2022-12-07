@@ -17,10 +17,10 @@
   "homepage": "https://github.com/zhengqiangzi/wyform#readme",
   "description": "",
   "devDependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "cors": "^2.8.4",
     "element-ui": "^2.4.6",
-    "express": "^4.16.3"
+    "express": "^4.18.2"
   },
   "dependencies": {
     "vue": "^2.5.17"
