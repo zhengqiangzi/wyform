@@ -20,7 +20,7 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "element-ui": "^2.4.6",
-    "express": "^4.16.3"
+    "express": "^4.17.3"
   },
   "dependencies": {
     "vue": "^2.5.17"
